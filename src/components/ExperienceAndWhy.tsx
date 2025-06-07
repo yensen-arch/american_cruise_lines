@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Locally Enriched Excursions",
-  description: "Explore American history, culture, and nature with expert-led tours in iconic towns and hidden gems.",
+  title: "All-American Heritage",
+  description: "Cruise iconic U.S. waterways on modern, American-built ships with American crew and locally inspired experiences.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Scenic Routes through Heartland & Coast",
-  description: "Cruise through charming ports, rolling landscapes, and historic waterways across the country.",
+  title: "Spacious Modern Comfort",
+  description: "Enjoy oversized staterooms with private balconies aboard the newest fleet in American river cruising.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Spacious Comfort Onboard",
-  description: "Enjoy roomy staterooms with balconies, regionally inspired cuisine, and attentive, all-American hospitality.",
+  title: "Deep Destination Focus",
+  description: "Explore historic towns and scenic landscapes with guided tours and onboard enrichment tailored to each region.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Tailored Itineraries",
-  description: "Each voyage is thoughtfully planned to highlight the beauty, diversity, and heritage of the U.S.",
+  title: "Complimentary Experiences",
+  description: "Fares include excursions, wine with meals, onboard entertainment, and personalized service on every sailing.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* American Cruise Lines Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
